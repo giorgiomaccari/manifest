@@ -47,28 +47,28 @@
   <project name="platform_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="rro" />
   <project name="platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="rro" />
   <project name="platform_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="rro" />
-  <project name="platform_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="rro" />
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="rro" />
-  <project name="platform_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="rro" />
-  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="rro" />
-  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="rro" />
-  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="rro" />
-  <project name="platform_packages_apps_Email" path="packages/apps/Email" remote="rro" />
-  <project name="platform_packages_apps_Exchange" path="packages/apps/Exchange" remote="rro" />
-  <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
-  <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />
-  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="rro" />
+<!--  <project name="platform_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="rro" />-->
+<!--  <project name="platform_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="rro" />-->
+<!--  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Email" path="packages/apps/Email" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Exchange" path="packages/apps/Exchange" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />-->
+<!--  <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="rro" />-->
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
-  <project name="platform_packages_apps_Music" path="packages/apps/Music" remote="rro" />
-  <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="rro" />
-  <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
+<!--  <project name="platform_packages_apps_Music" path="packages/apps/Music" remote="rro" />-->
+<!--  <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />-->
 <!--  <project name="platform_packages_apps_OTA" path="packages/apps/OTA" remote="rro" />-->
-  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="rro" />
-  <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
-  <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />
-  <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />
-  <project name="platform_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="rro" />
+<!--  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />-->
+<!--  <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />-->
+<!--  <project name="platform_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="rro" />-->
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="rro" />
   <project name="platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="rro" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="rro" />
@@ -135,7 +135,7 @@
   <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_system_netd" groups="pdk" path="system/netd" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_system_qcom" groups="qcom" path="system/qcom" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-13.0" />
+<!--  <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-13.0" />-->
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8952" />
@@ -457,24 +457,44 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="slim" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
+  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
 <!--  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />-->
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
